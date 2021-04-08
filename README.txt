@@ -10,7 +10,7 @@ voir LICENCE
 
 ********Démarrage********
 
-Logiciels nécessaires : Eclipse IDE
+Logiciels nécessaires : Eclipse IDE, ou tout autre IDE
 Étapes : 
 - Installez le fichier zip.
 - Ouvrez l'IDE Eclipse, cliquez sur File puis Import, "Existing project [...] puis enfin archive file. Recherchez le fichier zip
@@ -18,7 +18,7 @@ préalablement installé auparavant sur votre machine, cliquez dessous puis cliq
 - Normalement vous voyez le projet dans le package explorer. allez dans le package warcaftTD puis lancez le Main (clic droit, run as, run).
 - Le jeu devrait normalement se lancer.
 
--Vous pouvez aussi tout simplement lancer le fichier exécutable jar qui vous permettra de jouer à une version allégée du jeu.
+-Vous pouvez aussi tout simplement lancer le fichier exécutable jar qui vous permettra de jouer à une version allégée du jeu (voir repository towerdefenselight).
 
 
 ********Auteurs********
@@ -27,7 +27,7 @@ Léo
 Bahdon
 
 
-********License********
+********Licence********
 La plupart des images proviennent de près ou de loin (retouches) du site pixilart : nous avons édité la plupart d'entre elles grâce à ce site.
 Aucune utilisation commerciale du jeu (comprenant les images reprises) n'est envisagée : ce jeu n'a pas pour but de générer des revenus,
 mais s'inscrit dans un cadre scolaire.
@@ -51,7 +51,7 @@ Images :
 			- Neige : image construite à l'aide d'outils proposés par PowerPoint (flocons / fond)
 			- Classique : image construite sur Pixilart à l'aide d'éléments proposés par la communauté		  
 
-les images citées ne sont pas les seules présentes dans le projet, nous avons aussi édité ces images afin d'avoir un gameplay 
+Les images citées ne sont pas les seules présentes dans le projet, nous avons aussi édité ces images afin d'avoir un gameplay 
 intéressant (ex : différentes couleurs que prend le monstre suivant son état de santé)
 De plus, les logos présents dans le jeu ont été construits à l'aide du site https://eu2.flamingtext.fr/
 
@@ -67,16 +67,16 @@ Certains paramètres de jeu sont modifiables :
 - modification de la vie des monstres (s'applique lors de l'apparition d'un nouveau monstre)
 
 Vous pouvez cliquer sur un Boss pour lui asséner des dégats lorsqu'il est devant le chateau
-Appuyez sur 'echap' pour déselectionner une tour
+Appuyez sur 'echap' pour désélectionner une tour
 
 
 *******Informations subsidiaires*****
 Les propriétés des tours sont toutes proportionnelles à celles de ArrowTower.
-Les proporiétés des monstres sont toutes proportionnelles à celles de BaseMonster.
-Ces relations ont été contruites dans le but de toujours conserver un certain équilibre de gameplay 
+Les propriétés des monstres sont toutes proportionnelles à celles de BaseMonster.
+Ces relations ont été contruites dans le but de toujours conserver un certain équilibre de gameplay.
 
 Ce jeu a été conçu progressivement, étape par étape.
-Les manières de réfléchir le jeu ont évolué durant tout le développpement. 
+Les manières de conceptualiser le jeu ont évolué durant tout le développpement. 
 Des méthodes et des classes peuvent ainsi être inutilisées actuellement, remplacées par de nouvelles. 
 
 
