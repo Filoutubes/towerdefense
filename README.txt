@@ -29,8 +29,7 @@ Bahdon
 
 ********Licence********
 La plupart des images proviennent de près ou de loin (retouches) du site pixilart : nous avons édité la plupart d'entre elles grâce à ce site.
-Aucune utilisation commerciale du jeu (comprenant les images reprises) n'est envisagée : ce jeu n'a pas pour but de générer des revenus,
-mais s'inscrit dans un cadre scolaire.
+Aucune utilisation commerciale du jeu (comprenant les images reprises) n'est envisagée : ce jeu n'a pas pour but de générer des revenus, mais s'inscrit dans un cadre scolaire.
 
 Images : 
 
@@ -57,8 +56,8 @@ De plus, les logos présents dans le jeu ont été construits à l'aide du site 
 
 ********Informations importantes********
 
-L'expérience de jeu est modifiée selon la taille de la fenêtre : plus la fenêtre sera grande plus il y aura de subtilités dans le gameplay
-les éléments du menu dont la taille change lors du survol de la souris sont interactifs
+L'expérience de jeu est modifiée selon la taille de la fenêtre : plus la fenêtre sera grande plus il y aura de subtilités dans le gameplay.
+Les éléments du menu, dont la taille change lors du survol de la souris, sont interactifs.
 
 Certains paramètres de jeu sont modifiables :
 - modification du dombre de pièces du joueur
