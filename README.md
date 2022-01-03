@@ -14,7 +14,8 @@ voir LICENSE
 ## ********Démarrage********
 
 Logiciels nécessaires : Eclipse IDE, ou tout autre IDE (Intellij IDEA, etc : tout ce que vous voulez).
-Étapes : 
+
+Voici les étapes:
 - Installez le fichier zip.
 - Ouvrez votre IDE, cliquez sur File puis Import, "Existing project [...] puis enfin archive file. Recherchez le fichier zip
 préalablement installé auparavant sur votre machine, cliquez dessous puis cliquez sur finir. Votre IDE s'occupera du reste.
