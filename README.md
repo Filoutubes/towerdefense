@@ -72,7 +72,7 @@ Vous pouvez cliquer sur un Boss pour lui asséner des dégats lorsqu'il est deva
 Appuyez sur la touche 'echap' pour désélectionner une tour.
 
 
-*******Informations subsidiaires*****
+## ********Informations subsidiaires********
 Les propriétés des tours sont toutes proportionnelles à celles de ArrowTower.
 Les propriétés des monstres sont toutes proportionnelles à celles de BaseMonster.
 Ces relations ont été contruites dans le but de toujours conserver un certain équilibre de gameplay.
@@ -82,7 +82,7 @@ Les manières de conceptualiser le jeu ont évolué durant tout le développpeme
 Des méthodes et des classes peuvent ainsi être inutilisées actuellement, remplacées par de nouvelles. 
 
 
-## ********Informations supplémentaires********
+## ********Crédits********
 
  - Léo : 
  	- implémentation du squelette du World (sous-classe CelluleActive, sous-classe BoutDeChemin,...)
