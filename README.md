@@ -1,21 +1,23 @@
-********Informations générales********
-
 Castle Protection - PIXEL EDITION
+
+**Note: Ce projet n'est plus maintenu.** 
+
+********Informations générales********
 
 Castle Protection - PIXEL EDITION est un jeu, basé sous la librairie StdDraw, qui reprend les principes du Tower Defense.
 Implémenté en java en programmation orienté objet, ce jeu reprend de près ou de loin (retouches) certaines images dont voici les sources :
 
-voir LICENCE
+voir LICENSE
 
 
 ********Démarrage********
 
-Logiciels nécessaires : Eclipse IDE, ou tout autre IDE
+Logiciels nécessaires : Eclipse IDE, ou tout autre IDE (Intellij IDEA, etc : tout ce que vous voulez).
 Étapes : 
 - Installez le fichier zip.
-- Ouvrez l'IDE Eclipse, cliquez sur File puis Import, "Existing project [...] puis enfin archive file. Recherchez le fichier zip
-préalablement installé auparavant sur votre machine, cliquez dessous puis cliquez sur finir. Eclipse s'occupera du reste.
-- Normalement vous voyez le projet dans le package explorer. allez dans le package warcaftTD puis lancez le Main (clic droit, run as, run).
+- Ouvrez votre IDE, cliquez sur File puis Import, "Existing project [...] puis enfin archive file. Recherchez le fichier zip
+préalablement installé auparavant sur votre machine, cliquez dessous puis cliquez sur finir. Votre IDE s'occupera du reste.
+- Normalement vous voyez le projet dans le package explorer. Allez dans le package warcaftTD puis lancez le Main (clic droit, run as Java App, run).
 - Le jeu devrait normalement se lancer.
 
 -Vous pouvez aussi tout simplement lancer le fichier exécutable jar qui vous permettra de jouer à une version allégée du jeu (voir repository towerdefenselight).
@@ -40,19 +42,19 @@ Images :
 				image libre de droit "for personal use only" (pour utilisation non commerciale)
 				
 - Boule de feu -> Image issue du jeu Fortnite et plus précisément du wiki qui lui est associé (https://fortnite.fandom.com/fr/wiki/Boule_de_Feu)
-- chateau, tours,nuage : constuit sur Pixilart par Léo
+- Château, Tours,Nuages : construits sur Pixilart par Léo
  
 
 - Thèmes ->
 			- Plage : . étoile de mer issue du Muséum - Aquarium de Nancy (http://especeaquatique.museumaquariumdenancy.eu/fiche_espece/188)
-					  . crabe issu du site pinterest, image elle-même issue de pixilart (https://www.pinterest.fr/pin/302656037448923926/)
+					  . Crabe issu du site pinterest, image elle-même issue de pixilart (https://www.pinterest.fr/pin/302656037448923926/)
 					  . Fond path et fond world desinnés à la main (pixilart)
 			- Neige : image construite à l'aide d'outils proposés par PowerPoint (flocons / fond)
 			- Classique : image construite sur Pixilart à l'aide d'éléments proposés par la communauté		  
 
 Les images citées ne sont pas les seules présentes dans le projet, nous avons aussi édité ces images afin d'avoir un gameplay 
-intéressant (ex : différentes couleurs que prend le monstre suivant son état de santé)
-De plus, les logos présents dans le jeu ont été construits à l'aide du site https://eu2.flamingtext.fr/
+intéressant (ex : différentes couleurs que prend le monstre suivant sa jauge de vie).
+De plus, les logos présents dans le jeu ont été construits à l'aide du site https://eu2.flamingtext.fr/.
 
 ********Informations importantes********
 
@@ -65,8 +67,8 @@ Certains paramètres de jeu sont modifiables :
 - modification de la vitesse des monstres
 - modification de la vie des monstres (s'applique lors de l'apparition d'un nouveau monstre)
 
-Vous pouvez cliquer sur un Boss pour lui asséner des dégats lorsqu'il est devant le chateau
-Appuyez sur 'echap' pour désélectionner une tour
+Vous pouvez cliquer sur un Boss pour lui asséner des dégats lorsqu'il est devant le château.
+Appuyez sur la touche 'echap' pour désélectionner une tour.
 
 
 *******Informations subsidiaires*****
@@ -103,13 +105,14 @@ Des méthodes et des classes peuvent ainsi être inutilisées actuellement, remp
 	- implémentation de la sous-classe JaugeDeVie
 	
 	
-Ainsi que des corrections mutuelles qu'on a pu se faire entre nous !
+Ainsi que des corrections mutuelles qu'on a pu se faire entre nous!
 
 ******* Problèmes non résolus****************
       - Lorsque l'on modifie la taille du plateau (!= 1) on peut rencontrer des petits "bugs", 
       		notamment au niveau du placement des tours sur le plateau, et, plus grave : certains monstres peuvent sortir du chemin et rester bloqués
       - le chargement des images via StdDraw.picture peut causer des problèmes de ralentissement de l'update (cela peut prendre un temps siginicatif)
         et donc engendrer des souçis au niveau de la vitesse des monstres et même de certains projectiles pouvant même bloquer le jeu complètement !
-        cela s'est rencontré lorsque nous avons converti le jeu en .jar, d'où la création d'un mode 'lite' qui remplace les images les + demandées par des figures géométriques 
+        cela s'est rencontré lorsque nous avons converti le jeu en .jar, d'où la création d'un mode 'lite' qui remplace les images les + demandées par des figures géométriques
+	EDIT: Cause probable -> à chaque appel de la méthode update(), on recharge entièrement le fond de la map. Or, la construction du fond de la map est inspirée de celle du chemin: on recharge chaque petit carré de la map (suivant une taille fixée préalablement) par une image.
  
 
