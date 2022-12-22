@@ -26,8 +26,8 @@ préalablement installé auparavant sur votre machine, cliquez dessous puis cliq
 
 ## ********Auteurs********
 
-- Léo
-- Bahdon
+- L.
+- B.
 
 
 ## ********License********
@@ -84,7 +84,7 @@ Des méthodes et des classes peuvent ainsi être inutilisées actuellement, remp
 
 ## ********Crédits********
 
- - Léo : 
+ - L. : 
  	- implémentation du squelette du World (sous-classe CelluleActive, sous-classe BoutDeChemin,...)
  	- implémentation de la génération automatique d'un chemin
  	- gestion de la partie (début, fin, vague de monstres, pause, etc) et de l'interface
@@ -95,7 +95,7 @@ Des méthodes et des classes peuvent ainsi être inutilisées actuellement, remp
  	- implémentation classe CouplePositions
  	- amélioration classe Monster (notion d'états)
  
- - Bahdon :
+ - B. :
 	- implémentation hitbox monstres 
 	- implémentation de la classe Tower, gestion de leur amélioration (dans le World, dans la classe Tower et dans les sous-classes de Projectile)
 	- implémentation des Boss (gestion de leur attaque sur le château dans le World) : Pterodactyle et Dino
